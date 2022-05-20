@@ -36,7 +36,7 @@ export default function Task({
   return (
     <Card>
       <Card.Header>
-        Create At: {format(new Date(createdAt), "dd/MM/yyyy HH:mm:ss")}
+        Created At: {format(new Date(createdAt), "dd/MM/yyyy HH:mm:ss")}
       </Card.Header>
       <Card.Body>
         <Card.Title>{title}</Card.Title>
