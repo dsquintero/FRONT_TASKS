@@ -63,7 +63,7 @@ export default function SignUp() {
           />
         </Form.Group>
         <Button variant="primary" type="submit">
-          Sing Up
+          Sign Up
         </Button>
       </Form>
     </>
