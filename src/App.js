@@ -48,7 +48,7 @@ function App() {
 
             {isAuthenticated() && (
               <Button variant="link" onClick={LogOut} className="nav-link">
-                Sing Out
+                Sign Out
               </Button>
             )}
           </Nav>
